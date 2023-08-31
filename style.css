@@ -104,7 +104,6 @@ nav ul li a:hover {
     margin-top: 2%;
     margin-left: 20%;
     margin-right: 20%;
-    
 }
 
 #trailer {
@@ -129,21 +128,18 @@ iframe {
     margin-top: 2.5%;
     padding-top: 1%;
     margin-bottom: 2.5%;
-    padding-bottom: 2%;
+    padding-bottom: 1.5%;
 }
 
-#vdiv {
+#vgrid {
     display: grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-gap: 10px;
-    background-color: #fff;
-    color: #444;
+    grid-template-columns: auto auto auto;
+    margin-top: 1%;
 }
-  
-.vbox {
-    background-color: #444;
-    color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 150%;
+
+#vimg {
+    border: 2px solid rgba(169,4,37,1);
+    border-radius: 3px;
+    width: 60%;
+    height: 90%;
 }
