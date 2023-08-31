@@ -104,7 +104,6 @@ nav ul li a:hover {
     margin-top: 2%;
     margin-left: 20%;
     margin-right: 20%;
-    
 }
 
 #trailer {
@@ -122,4 +121,25 @@ iframe {
     margin-top: 2%;
     margin-left: 22.5%;
     margin-right: 22.5%;
+}
+
+#volumes {
+    background: rgb(0,2,36);
+    margin-top: 2.5%;
+    padding-top: 1%;
+    margin-bottom: 2.5%;
+    padding-bottom: 1.5%;
+}
+
+#vgrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 1%;
+}
+
+#vimg {
+    border: 2px solid rgba(169,4,37,1);
+    border-radius: 3px;
+    width: 60%;
+    height: 90%;
 }
