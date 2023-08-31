@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Phudu&display=swap');
 
 body {
-    background: rgb(0,2,36);
-background: radial-gradient(circle, rgba(0,2,36,1) 0%, rgba(69,31,48,1) 60%, rgba(169,4,37,1) 100%);
+    background: rgb(2, 5, 59);
 }
 
 * {
@@ -17,6 +16,22 @@ h1 {
     width: 100%;
     text-align: center;
     font-size: 50px;
+    padding-top: 1%;
+    color: white;
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 1%;
+    color: white;
+}
+
+p {
+    width: 75%;
+    text-align: center;
+    font-size: 25px;
     padding-top: 1%;
     color: white;
 }
@@ -54,3 +69,21 @@ nav ul li a:hover {
     float: right;
     background-color: rgba(169,4,37,1);
 }*/
+
+#wiki {
+    background: rgb(0,2,36);
+    margin-top: 2.5%;
+    padding-top: 1%;
+    margin-bottom: 2.5%;
+    padding-bottom: 2%;
+}
+
+#link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#link:hover {
+    background-color: rgba(169,4,37,1);
+    transition: background .4s;
+}
